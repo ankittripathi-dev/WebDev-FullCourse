@@ -1,0 +1,44 @@
+@import "nav";
+
+// (1) vabiables
+$bg-color: #d9dcd6;
+$primary-textColor: orangered;
+$secondary-textColor: midnightblue;
+$font-stack: "Segoe UI", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: $font-stack;
+}
+
+h1 {
+  color: $primary-textColor;
+  text-align: center;
+  margin-top: 40px;
+}
+
+// (3) mixin
+@mixin headingOne {
+  color: $primary-textColor;
+  margin-top: 30px;
+}
+
+.paraOne {
+  @include headingOne;
+}
+
+// (4) mixin with arguments
+@mixin headingTwo($colorArg) {
+  color: $colorArg;
+  margin-top: 20px;
+}
+
+.paraTwo {
+  @include headingTwo(darkblue);
+}

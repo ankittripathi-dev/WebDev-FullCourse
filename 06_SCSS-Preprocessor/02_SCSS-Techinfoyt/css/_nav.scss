@@ -1,0 +1,16 @@
+// (2) nesting
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 600;
+  }
+}

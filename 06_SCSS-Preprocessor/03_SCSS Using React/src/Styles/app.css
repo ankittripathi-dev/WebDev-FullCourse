@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  color: white;
+  width: large;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: midnightblue;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: orangered;
+}
+
+.navbar {
+  background-color: black;
+  font-size: 30px;
+  padding: 10px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 0.25rem;
+  margin: 10px;
+}
+
+.p1 {
+  background-color: midnightblue;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 0.25rem;
+  margin: 10px;
+}
+
+.p2 {
+  background-color: green;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 0.25rem;
+  margin: 10px;
+}
+
+.p3 {
+  background-color: coral;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 0.25rem;
+  margin: 10px;
+}/*# sourceMappingURL=app.css.map */

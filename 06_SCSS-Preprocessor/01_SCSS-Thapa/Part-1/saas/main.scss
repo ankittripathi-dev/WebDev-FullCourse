@@ -1,0 +1,58 @@
+// 1: operator
+// 2: variables
+// 3: nesting
+// 4: mixin :- Reusable blocks of styles.
+// 5: parameters
+// 6: partials 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, "Segoe UI", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+// variable
+$bg-color: #10ac84;
+
+// mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+// paramerets: $par1, $par2
+@mixin common-code($par1, $par2) {
+  color: black;
+  font-size: 4rem + 4rem;
+  letter-spacing: $par1;
+  text-transform: $par2;
+}
+
+.main-header {
+  @include flex-center; // mixin
+  width: 100vw;
+  height: 100vh;
+  background-color: $bg-color; // variables
+
+  // nesting
+  h1 {
+    @include common-code(0.6rem, uppercase);
+    &:hover {
+      color: orangered;
+    }
+  }
+
+  p {
+    @include common-code(0.1rem, capitalize);
+    &:hover {
+      color: greenyellow;
+    }
+  }
+}
