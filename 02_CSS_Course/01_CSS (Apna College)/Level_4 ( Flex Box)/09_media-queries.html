@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Media Quaries</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .container {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: lightslategray;
+    }
+
+    .box {
+      width: 150px;
+      height: 100px;
+      background-color: teal;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 8px;
+    }
+
+
+    /* Agar width size 600px hai toh E color apply kr doo shift 600px pe kam jata pe nhi */
+    @media (width: 600px) {
+      .container {
+        background-color: aquamarine;
+      }
+
+       .box {
+        background-color: yellow;
+      }
+    }
+
+    /* kam se kam width 650px ho tab uspe E color Apply kr doo */
+    @media (min-width: 650px) {
+     .container {
+        background-color:beige;
+      }
+    }
+
+    /* 500px width se kam pe E color Apply kr doo */
+    @media (max-width: 500px) {
+      .box {
+        background-color: orangered;
+      }
+    }
+
+    @media (min-width: 600px) And (max-width: 700px) {
+      .box {
+        background-color: crimson;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box</div>
+  </div>
+</body>
+</html>

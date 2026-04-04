@@ -1,0 +1,21 @@
+h1 {
+  color: yellow;
+}
+
+button {
+  background-color: orangered;
+  color: black;
+  border: none;
+}
+
+#headingOne {
+  color: lightskyblue;
+}
+
+#headingTwo {
+  color: lightcoral;
+}
+
+.myclass {
+  color: purple;
+}

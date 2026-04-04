@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>flex-box (Flex-wrap)</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .box {
+        height: 100px;
+        width: 150px;
+        border: 1px solid black;
+        text-align: center;
+      }
+
+      #box1 {
+        height: 75px;
+      }
+
+      #box3 {
+        height: 75px;
+      }
+
+      #containers {
+        height: 600px;
+        border: 3px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* flex-wrap: wrap-reverse; */
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      flex-wrap: nowrap/ wrap/ wrap-reverse
+    </h1>
+
+    <div id="containers">
+      <div class="box" id="box1" style="background-color: orangered">Box1</div>
+      <div class="box" id="box2" style="background-color: yellow">Box2</div>
+      <div class="box" id="box3" style="background-color: lightgreen">Box3</div>
+      <div class="box" id="box4" style="background-color: navy">Box4</div>
+      <div class="box" id="box5" style="background-color: crimson">Box5</div>
+    </div>
+  </body>
+</html>

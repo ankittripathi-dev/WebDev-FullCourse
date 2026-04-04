@@ -1,0 +1,41 @@
+/* 
+   font-weight: normal/ bold/ bolder/ lighter;
+   font-weigt:100-900
+*/
+
+#one {
+  font-weight: 100;
+}
+
+#two {
+  font-weight: bolder;
+}
+ 
+#thre {
+  font-weight: bold;
+}
+
+#four {
+  font-weight: 900;
+}
+
+#five {
+  font-weight: 600;
+}
+
+#six {
+  font-weight: 500;
+}
+
+#seven {
+  font-weight: 400;
+}
+
+#eight {
+  font-weight: normal;
+}
+
+#nine {
+  font-weight: lighter;
+  color: green;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unit in CSS (percenatge %)</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        background-color: black;
+        color: wheat;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      }
+
+      /* percenatge */
+      .parents {
+        height: 200px;
+        width: 200px;
+        /* width: 50%; */
+        background-color:orangered;
+        border: 1px solid black;
+      }
+
+      .child {
+        height: 100px;
+        width: 50%;
+        background-color:navy;
+      }
+
+      /*
+       Box1(parent) and Box2(child) hai. Box1 ka jo vi height, width, margin, padding etc hoga usi ko child 100% manega aur apna jo vi set krna hoga parent ke under me karega. Na ki pure body or display.
+      */
+    </style>
+  </head>
+  <body>
+    <h2>
+      Absolute length:- units are fixed and a length expressed in any of these
+      will appear as exactly that size.
+    </h2>
+
+    <h2>
+      Example:- px pixels (1px = 1/96th of 1in)
+    </h2>
+
+    <h2>
+      Relative length:- units specify a length relative to another length property.
+    </h2>
+
+    <ul>
+      <li>
+        em:- Relative to the font-size of the element (2em means 2 times the size of the current font)
+      </li>
+      <li>rem:- Relative to font-size of the root element</li>
+      <li>vw:- Relative to 1% of the width of the viewport*</li>
+      <li>vh:- Relative to 1% of the height of the viewport*</li>
+      <li>vmin:- Relative to 1% of viewport's* smaller dimension</li>
+      <li>vmax:- Relative to 1% of viewport's* larger dimension</li>
+      <li>% Relative to the parent element</li>
+    </ul>
+    <hr /><hr>
+
+    <h2>
+      Percentage(%):- It is often used to define a size as relative to an element't parent object.
+    </h2>
+
+    <!-- discussion -->
+    <div class="parents">parent
+      <div class="child">child</div>
+    </div>
+  </body>
+</html>

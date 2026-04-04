@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>unit in css (rem)</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .paraOne {
+        background-color: orangered;
+        margin: 3rem;  /* 16px*3 = 48px */
+        height: 20rem; /* 16px*20 = 320px */
+        width: 20rem; /* 16px*20 = 320px */
+        font-size: 3rem; /* root elements body ke just badd wala means font size: 16px 16*3 = 48px*/
+        /* By-default size of root element(body ke ander) = 16px  */
+      }
+    </style>
+  </head>
+  <body>
+    <h3>
+      rem(root em):- relative to font size of the root elements (root means HTML)
+    </h3>
+    <p class="paraOne">
+      rem(root em)
+    </p>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flexbox (align-self)</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .box {
+      height: 75px;
+      width: 150px;
+      display: inline-block;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    #box2 {
+      align-self: flex-end;
+    }
+
+    #box3 {
+      align-self: center;
+   
+    }
+
+    #box4 {
+      align-self: flex-start;
+
+    }
+    
+    #box5 {
+      align-self: flex-end;
+    }
+
+    #containers {
+      height: 590px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <!-- Notes: Particular items ko align kr skte hai align-self se (selected Elememts ko) -->
+  <h3>
+    align-self:- The align-self property specifies the alignment for the
+    selected item inside the flexible container.
+  </h3>
+  <h3>
+    The align-self property overrides the default alignment set by the container's align-items property.
+  </h3>
+
+  <div id="containers">
+    <div class="box" id="box1" style="background-color: orangered">Box1</div>
+    <div class="box" id="box2" style="background-color: yellow">Box2</div>
+    <div class="box" id="box3" style="background-color: navy">Box3</div>
+    <div class="box" id="box4" style="background-color:lightgreen">Box4</div>
+    <div class="box" id="box5" style="background-color:seashell">Box5</div>
+  </div>
+</body>
+</html>

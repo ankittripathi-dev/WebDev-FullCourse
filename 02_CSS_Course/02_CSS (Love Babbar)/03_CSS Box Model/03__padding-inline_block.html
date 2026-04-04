@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lecture_3 (padding-inline & padding-block)</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        background-color: palevioletred;
+        /* padding-inline-start: 100px; */
+        /* padding-inline-end: 150px; */
+        padding-inline: 100px;         /* Applied on both End */
+        padding-inline: 200px 50px;   /* 200px is start and 50px is end */
+      }
+
+      h2 {
+        background-color: lightgreen;
+        padding-block: 100px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Padding-inline is the space from its border to its content in the inline direction (x-axis), and it is a shorthand property for the following Properties:-
+      <li>padding-inline-start (left-side)</li>
+      <li>padding-inline-end (right-side)</li>
+      <li>padding-inline: 10px 50px; padding start = 10px, padding end = 50px</li>
+      <li>padding-inline: 10px; padding start and padding end = 10px</li>
+    </h1>
+
+    <h2>
+      Padding-block is the space from its border to its content in the block direction (y-axis),
+      and it is a shorthand property for the following Properties:-
+      <li>padding-block-start (top)</li>
+      <li>padding-block-end (bottom)</li>
+      <li>padding-block(shorthand): start(top) | end(bottom)</li>
+      <li>padding-block: 10px 50px; padding start = 10px, padding end = 50px</li>
+      <li>padding-block: 10px; padding start and padding end = 10px</li>
+    </h2>
+  </body>
+</html>

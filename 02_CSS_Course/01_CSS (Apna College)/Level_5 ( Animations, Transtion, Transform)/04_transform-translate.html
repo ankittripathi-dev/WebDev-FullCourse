@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Level 5(transform:translate)</title>
+    <style>
+      body{
+        background-color: black;
+        color: whitesmoke;
+      }
+
+      div {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        background-color:orangered;
+        border: 3px solid black;
+        position: absolute;
+        top: 120px;
+        left: 500px;
+        transition: all 2s ease-in;
+      }
+
+      div:hover {
+        transform: translate(50px); 
+        /* When you give only one value, it is applied to the X-axis (horizontal). */
+        transform: translate(300px, 80px);   /* Move 20px right and 50px down. */
+        /* transform: translateX(200px); */
+        /* transform: translateX(-200px); */
+        /* transform: translateY(200px); */
+        /* transform: translateY(-200px); */
+      }
+
+      div:active {
+        background-color: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <div>div</div>
+  </body>
+</html>

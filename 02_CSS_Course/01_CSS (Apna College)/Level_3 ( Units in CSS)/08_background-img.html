@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Level_3 (Background Image)</title>
+    <style>
+      div {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        display: inline-block;
+      }
+
+      #box1 {
+        background-image: url("images/msd.JPG");
+        background-size: contain;   /* repaet vi ho skta hai Image ka part */
+      }
+
+      #box2 {
+        background-image: url("images/Ankit.jpeg");
+        background-size: cover; /* Ekdam fit jitna height, width hai */
+      }
+
+      body {
+        background-image: url("images/cat.avif");
+        background-size: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <h1>Background Image</h1>
+      <li>background-image: cover/ contain/ auto</li>
+      <li>cover: no empty space (image fit)</li>
+      <li>contain: visible, fit but repeat</li>
+      <li>auto: enlargerd</li>
+    </ol>
+
+    <div id="box1" style="background-color: navy">box1</div>
+    <div id="box2" style="background-color: orange">box2</div>
+    <div id="box3" style="background-color: yellow">box3</div>
+  </body>
+</html>
