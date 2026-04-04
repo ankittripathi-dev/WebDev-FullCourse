@@ -1,0 +1,84 @@
+@use "colors2" as color; // modules
+@import "colors";
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-primaryColor;
+  color: $text-primaryColor;
+  width: large;
+  font-family: $font-primary;
+}
+
+h1 {
+  text-align: center;
+  color: $text-secondaryColor;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: nth($colors, 3);
+}
+
+.navbar {
+  background-color: black;
+  font-size: 30px;
+  padding: 10px;
+
+  // (2) nesting
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: color.$text-primaryColor;
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem + 5rem;  // operator
+}
+
+
+// mixin
+@mixin CustomFun($color) {
+  background-color: $color;
+  color: $text-primaryColor;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 0.25rem;
+  margin: 10px;
+}
+
+button {
+  @include CustomFun(crimson);
+}
+
+
+.p1 {
+  // @extend button   // button ki property inherit kr lega
+  @include CustomFun(midnightblue);
+}
+
+.p2 {
+  @include CustomFun(green);
+}
+
+.p3 {
+  @include CustomFun(coral);
+}

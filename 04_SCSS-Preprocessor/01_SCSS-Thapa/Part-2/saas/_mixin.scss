@@ -1,0 +1,15 @@
+// mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// paramerets: $par1, $par2
+@mixin common-code($par1, $par2) {
+  color: black;
+  font-size: 4rem + 4rem;
+  letter-spacing: $par1;
+  text-transform: $par2;
+}

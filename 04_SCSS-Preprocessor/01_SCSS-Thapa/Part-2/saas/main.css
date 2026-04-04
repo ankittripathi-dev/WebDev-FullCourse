@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, "Segoe UI", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #10ac84;
+}
+.main-header h1 {
+  color: black;
+  font-size: 8rem;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+.main-header h1:hover {
+  color: orangered;
+}
+.main-header p {
+  color: black;
+  font-size: 8rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+.main-header p:hover {
+  color: greenyellow;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+ul li {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9dcd6;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  color: orangered;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.paraOne {
+  color: orangered;
+  margin-top: 30px;
+}
+
+.paraTwo {
+  color: darkblue;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
