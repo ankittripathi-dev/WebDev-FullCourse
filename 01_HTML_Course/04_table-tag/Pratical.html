@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice Set</title>
+</head>
+<body>
+    <!-- 1st Example -->
+    <table border="1">
+        <tr>
+            <td>Columu 1</td>
+            <td>Columu 2</td>
+            <td>Columu 3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Row 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <!-- 2nd Example -->
+    <table border="3">
+        <caption>Students Record B.Tech </caption>
+        <thead>
+            <th>Serial No </th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Section</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ankit</td>
+                <td>4<sup>th</sup> year</td>
+                <td rowspan="4">A</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Akash</td>
+                <td>3<sup>rd</sup> year</td>
+
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Anoop</td>
+                <td>2<sup>nd</sup> year</td>
+
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Ajay</td>
+                <td>1<sup>st</sup> year</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+
+    <!-- 3rd Example -->
+    <table border="1">
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill gates</td>
+                <td>Founder Microsoft</td>
+                <td>1000$</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Steve jobs</td>
+                <td>Founder Apple</td>
+                <td>1200$</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>1100$</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Mark Zukerburg</td>
+                <td>Founder Facebook</td>
+                <td>1300$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Expenses</td>
+                <td>4600$</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <hr>
+
+    <!-- 4th Example -->
+    <table border="1">
+        <thead>
+            <th>Country</th>
+            <th>state</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>others</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerla</td>
+                <td rowspan="2">Cochin</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+
+            <tr>>
+                <td rowspan="2">Trivandrum</td>
+                <td>Guru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>TVK street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Maharastra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krisha street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+
+                <td>Main street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+
+                <td>Billa street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+
+                <td>Cross street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+
+    <!-- 5th Example -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+
+            <tr>
+                <th colspan="2">Schedule </th>
+                <th rowspan="2">Topic</th>
+            </tr>
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8.00 a.m</td>
+                <td rowspan="2">5.00 p.m</td>
+                <td>Learning HTML</td>
+            </tr>
+
+            <tr>
+                <td>Validity</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Tuseday</td>
+                <td>8.00 a.m</td>
+                <td>11.00 p.m</td>
+                <td>X path</td>
+            </tr>
+
+            <tr>
+                <td>11.00 a.m</td>
+                <td>2.00 p.m</td>
+            </tr>
+
+            <tr>
+                <td>2.00 p.m</td>
+                <td>5.00 p.m</td>
+                <td>Transformations</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>8.00 am</td>
+                <td>12.00 p.m</td>
+                <td>Formatting</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+
+    <!-- 6th Example -->
+    <table border="1">
+        <caption>
+            University Of Technology & Management Maharjganj <br>
+            Pre University Test 2022-23(Even Semester Exam)
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Date</th>
+                <th rowspan="2">Time</th>
+                <th colspan="3">1<sup>st</sup> year</th>
+                <th colspan="4">2<sup>nd</sup> year</th>
+            </tr>
+
+            <tr>
+                <th>CE</th>
+                <th>ME</th>
+                <th>CS</th>
+                <th>CE</th>
+                <th>ME</th>
+                <th>EC</th>
+                <th>CS</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>17/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">Mathmatics I</td>
+                <td>Mechanics</td>
+                <td>Thermodynamics</td>
+                <td>DSD</td>
+                <td>OS</td>
+            </tr>
+
+            <tr>
+                <td>18/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">Mechanical Engineering</td>
+                <td>MTC</td>
+                <td>Manufacturing process</td>
+                <td>Analog Signal</td>
+                <td>Microprocessor</td>
+            </tr>
+
+            <tr>
+                <td>19/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">Engg Chemistry</td>
+                <td>Environmental Engg</td>
+                <td>Engg Mechanics</td>
+                <td>Signal System</td>
+                <td>Data Structure</td>
+            </tr>
+
+            <tr>
+                <td>20/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">Soft Skill</td>
+                <td>Math III</td>
+                <td colspan="3">Math IV</td>
+            </tr>
+
+            <tr>
+                <td>21/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">Electronics Engg</td>
+                <td colspan="4">UHV</td>
+            </tr>
+
+            <tr>
+                <td>22/07/2024</td>
+                <td>Morning (10:00 to 12:00)</td>
+                <td colspan="3">..............................</td>
+                <td colspan="4">Python Programming</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

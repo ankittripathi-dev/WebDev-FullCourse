@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>forms Pratice</title>
+  <link rel="shortcut icon" href="/00_Image/agriculture.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- form 1 -->
+  <form>
+    <h2>Simple Form</h2>
+    <input type="text" placeholder="Enter User Name" />
+    <input type="password" placeholder="Enter Password" />
+  </form>
+
+  <hr><br><br>
+
+  <!-- form2 -->
+  <form>
+    <label for="email">Enter Email:-</label>
+    <input type="email" name="" id="email" />
+    <br />
+    <label for="pass">Enter Password:-</label>
+    <input type="password" id="pass" />
+    <br />
+    <input type="submit" value="click here" />
+  </form>
+
+  <hr><br /><br />
+
+  <!-- form3 -->
+  <form>
+    <label for="emailid">Email:-</label>
+    <input type="text" id="emailid" placeholder="Enter Your Email" />
+    <br />
+    <label for="password">Password:-</label>
+    <input type="password" id="password" placeholder="Enter password" />
+    <br />
+    <textarea name="txt1" id="txt1" cols="30" rows="10" placeholder="Feedback here"></textarea>
+    <br>
+    <input type="submit" value="click here" />
+  </form>
+
+  <hr><br /><br />
+
+  <!-- form4 -->
+  <form>
+    <label for="selectoral">Choose Your Items:</label>
+    <br />
+    <select name="selectoral" id="selectoral">
+      <option disabled value="">Select item</option>
+      <option value="kurkure">kurkure</option>
+      <option value="kit kat">kit kat</option>
+      <option value="Dairy Milk">Dairy Milk</option>
+    </select>
+
+    <br><br>
+
+    <select>
+      <option value="Noida">Noida</option>
+      <option value="chennai">chennai</option>
+      <option value="Pune">Pune</option>
+    </select>
+  </form>
+
+  <hr><br /><br />
+
+  <!-- form5 -->
+  <form>
+    <label for="First name">Enter Name:-</label>
+    <input type="text" id="First name" />
+    <br />
+
+    <label for="passw">Enter Password:-</label>
+    <input type="password" id="passw" />
+    <br />
+
+    <label for="choose date">Choose Date:-</label>
+    <input type="date" id="choose date" />
+    <br />
+
+    <label for="Upload">Resume:-</label>
+    <input type="file" id="Upload" />
+    <br />
+
+    <label for="radio1">Male:</label>
+    <input type="radio" name="radio1" id="radio1" />
+
+    <label for="radio2">Female:</label>
+    <input type="radio" name="radio2" id="radio2" />
+
+    <label for="radio3">Prefer not to Say:</label>
+    <input type="radio" name="radio3" id="radio3" />
+    <br />
+
+    <label for="check1">Choose Your subjects:</label>
+    <br />
+    <label for="check1">English</label>
+    <input type="checkbox" name="" id="check1" />
+
+    <label for="check2">Computer</label>
+    <input type="checkbox" name="" id="check2" />
+
+    <label for="check3">Science</label>
+    <input type="checkbox" name="" id="check3" />
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
+  <br />
+
+  <!-- form6 -->
+  <form>
+    <h2>Event Registration</h2>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" />
+    <br /><br />
+
+    <label for="addemail">Email Id:</label>
+    <input type="email" name="email" id="addemail" />
+    <br /><br />
+
+    <label for="phone">Phone No:</label>
+    <input type="tel" name="phone" id="phone" />
+    <br /><br />
+
+    <label for="occupation type">Occupation:</label>
+    <select name="occupation" id="occupation type">
+      <option value="Farmer">Select from here:</option>
+      <option value="Students">Students:</option>
+      <option value="Farmer">Farmer:</option>
+    </select>
+
+    <hr> <br /><br />
+
+    <fieldset>
+      <legend>Topic of Interest</legend>
+      <label for="checkkaro1">HTML</label>
+      <input type="checkbox" name="checkkaro1" id="checkkaro1" />
+      <br>
+
+      <label for="checkkaro2">CSS</label>
+      <input type="checkbox" name="checkkaro2" id="checkkaro2" />
+      <br>
+
+      <label for="checkkaro3">JavaScripts</label>
+      <input type="checkbox" name="checkkaro3" id="checkkaro3" />
+    </fieldset>
+
+    <br><br>
+
+    <label for="num1">Experience:</label>
+    <input type="number" name="num1" id="num1" min="0" max="20" />
+    <br />
+
+    <label for="textarea1">Comments:</label>
+    <br />
+
+    <textarea name="Feedabck here" id="" cols="30" rows="10" placeholder="Feedback Here"></textarea>
+    <br>
+
+    <button>Register</button>
+    <br />
+
+    <section>
+      <h3>Frequently Asked Questions:</h3>
+      <details>
+        <summary>What is Your qualification?</summary>
+        <p>I am Graduate</p>
+      </details>
+
+      <br>
+
+      <details>
+        <summary>RoadMap of the video</summary>
+        <p>learn what matter</p>
+        <p>learn in details</p>
+      </details>
+    </section>
+  </form>
+
+  <footer>
+    <p>&copy;Ankit Tripathi all rights reserved.</p>
+  </footer>
+  <br />
+
+  <!-- Additional Media -->
+  <h3>Audio media</h3>
+  <audio src="/00_Audio & Video/audio.m4a" controls>Audio</audio>
+  <br />
+
+  <audio controls>
+    <source src="/00_Audio & Video/Dil.mp3" />
+  </audio>
+
+  <h3>Video Media</h3>
+  <video src="/00_Audio & Video/video.mp4" height="100px" width="300px" controls>
+    video
+  </video>
+  <br />
+
+  <iframe width="427" height="409" src="https://www.youtube.com/embed/FeiiAvkAcnA"
+    title="Web developer roadmap (Hindi)"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+  <br />
+  <iframe src="https://wikipedia.org">Wikipedia</iframe>
+</body>
+</html>

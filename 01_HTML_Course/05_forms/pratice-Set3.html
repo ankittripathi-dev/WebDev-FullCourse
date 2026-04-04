@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pratice-3</title>
+</head>
+<body>
+    <h2>Complex form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal information:</legend>
+            <label for="name">Name:-</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+
+            <label for="email">Email:-</label>
+            <input type="text" name="eamil" id="email">
+            <br><br>
+
+            <label for="phonenumber">Phone:-</label>
+            <input type="tel" id="phonenumber">
+            <br><br>
+
+            <label for="datepicker">DOB:-</label>
+            <input type="date" name="datepicker" id="datepicker">
+            <br><br>
+
+            <span>Gender:</span>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Male:-</label>
+
+            <input type="radio" name="radio" id="radio2">
+            <label for="radio2">Female:-</label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="" disabled selected>Select Your Country</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address:</legend>
+            <label for="street">Street:</label>
+            <input type="text" name="street" id="street">
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <br><br>
+
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state">
+            <br><br>
+
+            <label for="Zipcode">Zip Code:</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information:</legend>
+            <label for="text1">Comments:</label>
+            <br>
+            <textarea name="text1" id="" cols="40" rows="7"></textarea>
+            <br>
+
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1">I agree to term & service</label>
+            <br>
+            <button>Submit</button>
+        </fieldset>
+        <hr width="70%" align="right">
+    </form>
+</body>
+</html>

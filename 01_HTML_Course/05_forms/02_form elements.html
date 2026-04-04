@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <form>
+        <h1>Example for Input</h1>
+        <label for="datepicker">Chose Date:-</label>
+        <input type="date" id="datepicker">
+    </form>
+    <hr>
+
+    <form>
+        <h1>Example for Select & Options</h1>
+        <label for="selectoral">Choose Your Dishes:-</label>
+        <select name="Dishes" id="selectoral">
+            <option value="maggi">Maggi</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+        </select>
+        <br><br>
+
+        <select name="cities">
+            <option value=""></option>
+            <option value="Chennai">Chennai</option>
+            <option value="Noida">Noida</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br><br>
+
+        <select name="city" required>
+            <option value="" disabled selected>Select a city</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Noida">Noida</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br><br>
+        <button>Click here to Submit</button>
+
+        <hr>
+        <textarea name="textarea1" id="textarea1" cols="40" rows="8"
+         placeholder="Please give feedback..."></textarea>
+    </form>
+
+
+    <!-- Fieldset tag -->
+
+    <form>
+        <h1>Fieldset Tag</h1>
+        <fieldset>
+            <label for="datepick">Choose your Dishes:</label>
+            <input type="date" id="datepick">
+            <br><br>
+
+            <label for="select">Choose your Dishes:</label>
+            <select name="Items" id="select">
+                <option value="maggi">Maggi</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="chips">chips</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="textarea1" id="textarea1" cols="50" rows="10"
+                placeholder="Please give feedback..."></textarea>
+        </fieldset>
+
+    </form>
+    <br><br>
+
+    <!-- Fieldset tag & Legend Tag -->
+    <form>
+        <fieldset>
+            <legend>HTML form Dummy</legend>
+
+            <label for="datepicker">Chose Date:</label>
+            <input type="date" id="datepicker">
+            <br>
+            <br>
+            <label for="selectoral">Choose your Dishes:</label>
+            <select name="Dishes" id="selectoral">
+                <option value="maggi">Maggi</option>
+                <option value="kurkure">Kurkure</option>
+                <option value="chips">chips</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="textarea1" id="textarea1" cols="50" rows="10"
+                placeholder="Please give feedback....."></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
