@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheriyans Coading School</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScripts Pratice</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, dicta. Eaque enim tenetur
+        iustotemporibuseveniet dolorem ut officia numquam?
+    </p>
+    <button>Click Me</button>
+
+    <script>
+        // (1) Create an HTML page with a button. When the button is clicked, change the text of a paragraph elements
+        let btn = document.querySelector('button')
+        console.log(btn);
+        let para = document.querySelector('p')
+        console.log(para);
+
+
+        btn.addEventListener('click', () => {
+            para.textContent = 'Hey Hello'
+
+        })
+    </script>
+</body>
+</html>

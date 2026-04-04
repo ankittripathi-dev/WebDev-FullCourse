@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let char = prompt('Enter Characters')
+
+        // if (char == 'a' || char == 'e' || char == 'i' || char == '0' || char == 'u') {
+        //     console.log('Vowels');
+        // } else {
+        //     console.log('consonents');
+        // }
+
+        let vowels = ['a', 'e', 'i', 'o', 'u']
+        if (vowels.includes(char)) {
+            console.log('vowels');
+        } else {
+            console.log('Consonant');
+        }
+
+        let chars = prompt('Enter Alphabets').toUpperCase()
+        if ('aeiou'.includes(chars)) {
+            console.log('vowels');
+        } else {
+            console.log('Consonant');
+        }
+
+    </script>
+</body>
+</html>
