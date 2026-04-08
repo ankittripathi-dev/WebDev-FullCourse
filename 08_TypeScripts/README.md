@@ -1,3 +1,4 @@
+
 # 1 Number 
 - let age: number = 25;
 
@@ -32,3 +33,4 @@
 | Type Inference   | TS guesses type | `let x = 10`         |
 | Type Annotation  | You define type | `let x: number = 10` |
 | Type Declaration | Custom types    | `type User = {...}`  |
+
