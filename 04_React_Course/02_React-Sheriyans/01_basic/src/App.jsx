@@ -6,7 +6,7 @@ const App = () => {
 
   const handleChange = () => {
     console.log(user);
-    user = "Aryan"; // Real DOM se intract ho rha hai na ki Virtual DOM. So UI pe change nhi hoga.
+    user = "Aryan";  // Real DOM se intract ho rha hai na ki Virtual DOM. So UI pe change nhi hoga.
     console.log(user);
   };
 
