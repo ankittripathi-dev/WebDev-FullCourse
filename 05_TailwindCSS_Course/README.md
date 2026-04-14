@@ -1,2 +1,2 @@
 # TailwindCSS_Notes
-A Complete Course Repo of Tailwind CSS
+- Tailwind CSS Full Course
