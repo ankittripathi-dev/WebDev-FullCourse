@@ -448,13 +448,12 @@ interface UserDetails {
 
 // ******************************************************************************************************************** //
 
-//  Generics:- Generics in TypeScript let you write reusable, type-safe code that works with multiple data types—without losing type information.
-// Generics allow you to create functions, classes, and interfaces that work with any type while still enforcing type safety.
+/* Generics
+- Generics in TypeScript are a way to create reusable, flexible, and type-safe code. They allow you to write functions, classes, or interfaces that work with any data type, while still maintaining type safety.
+*/
 
 // Basic Syntax
-function helloBoloJee<T>(a: T, b: T): T {
+function HelloBoloJee<T>(a: T, b: T): T {
   return a
 }
-helloBoloJee(10, 12);
-
-
+HelloBoloJee(10, 12);
