@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [num, setNum] = useState(0);
@@ -20,6 +20,6 @@ const App = () => {
 export default App;
 
 /* Notes:-
-  hooks:- hooks are special type of function
-  useState hook :- state management
+   hooks:- hooks are special type of function
+   useState hook:- state management
 */
