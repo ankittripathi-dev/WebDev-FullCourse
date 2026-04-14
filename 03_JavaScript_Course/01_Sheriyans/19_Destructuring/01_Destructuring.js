@@ -5,18 +5,16 @@
 const course = {
   courseName: "Javascript",
   price: "999",
-  courseInstructor: "Hitesh",
+  courseInstructor: "Harsh",
 };
 // console.log(course.courseName);            // output : JavaScripts
-// console.log(course.price);                 // output: 999
-// console.log(course.courseInstructor);      // output: Hitesh
 
 // Destructuring Here (You can use object destructuring to extract the properties into variables)
 const { courseName, price, courseInstructor, duration } = course;
 
 console.log(courseName); // output: javaScripts
 console.log(price); // output: 999
-console.log(courseInstructor); // output: Hitesh
+console.log(courseInstructor); // output: Harsh
 console.log(duration); // output: undefined (because object me kahi define hi nhi huwa hai)
 
 // Notes: Destructuring krne se hamesha (object.key kr ke print nhi krna padega)
@@ -27,6 +25,7 @@ console.log(Teacher); // output: Hitesh
 console.log(Amount); // output: 999
 console.log(Time);
 // output: undefined (obejct me defined nhi hai toh Re-structure krte time vi undefined hoga)
+
 
 // Example.2
 const person = {
@@ -45,6 +44,7 @@ console.log(personName); // output: Sanchita
 console.log(personAge); // output: 24
 console.log(personCity); // output: Mumbai
 
+
 //! Default values
 const {
   name: firstName,
@@ -52,10 +52,12 @@ const {
   lastName = "Ugle",
   address = "London",
 } = person;
+
 console.log(firstName); // output: Sanchita
 console.log(middleName); // output: undefined
 console.log(lastName); // output: ugle
 console.log(address); // output: London
+
 
 // Example.3 (Nested objects)
 const employee = {
@@ -90,7 +92,7 @@ const people = {
 };
 
 const { user, ...details } = people;
-console.log(user);    // output: John
+console.log(user); // output: John
 console.log(details); // output: { age: 30, city: 'New York' }
 
 //! Destructuring in Array
