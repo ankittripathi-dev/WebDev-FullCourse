@@ -37,6 +37,7 @@ Topic: rem(root em) => relative to font size of the root elements(root means HTM
 In short: Relative shifts visually, but reserves its old space in the layout.
 
 <!-- *********************************** -->
+
 Box4 is relative → keeps its old space in the flow.
 → That’s why content below it adjusts downward.
 
@@ -45,20 +46,20 @@ Box5 is absolute → doesn’t affect siblings.
 
 So the real “pushing” effect is because of Box4 (relative positioning), not Box5.
 
-
 <!-- ******************** -->
+
 align-items = positioning individual people in a line
 align-content = positioning the whole group of lines
 
 Works when there are multiple lines of items (i.e., when wrapping occurs with flex-wrap: wrap).
 It aligns the lines themselves along the cross axis.
 
-
-Property	Affects	Works when	Example use
-align-items	Individual items	Always (single or multiple lines)	Centering items in one line
-align-content	Multiple lines (the whole group)	Only when wrapping (flex-wrap: wrap)	Controlling spacing between rows
+Property Affects Works when Example use
+align-items Individual items Always (single or multiple lines) Centering items in one line
+align-content Multiple lines (the whole group) Only when wrapping (flex-wrap: wrap) Controlling spacing between rows
 
 <!-- ************************** -->
-/* shorthand for flex direction $ flex wrap */
+
+/_ shorthand for flex direction $ flex wrap _/
 flex-flow: row wrap;
 flex-flow: row nowrap;
