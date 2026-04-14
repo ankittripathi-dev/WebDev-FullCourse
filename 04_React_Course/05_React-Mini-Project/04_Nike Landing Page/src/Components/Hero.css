@@ -1,0 +1,57 @@
+.hero-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: calc(100vh-72px);
+  padding: 0px 65px;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 93px;
+  line-height: 90px;
+}
+
+.hero p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--gray);
+  max-width: 470px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.primary-btn {
+  border-radius: 5px;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}

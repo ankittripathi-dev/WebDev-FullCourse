@@ -1,0 +1,16 @@
+
+
+body{
+  height: 100vh;
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+button{
+  padding: 6px 12px;
+  font-size: large;
+}

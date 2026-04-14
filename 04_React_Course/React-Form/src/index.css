@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 8px 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 6px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+select {
+  padding: 8px 10px;
+  font-size: 1em;
+  border-radius: 6px;
+}
+select:hover {
+  border-color: #646cff;
+}

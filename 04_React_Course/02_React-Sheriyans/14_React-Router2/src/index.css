@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  top: 50vh;
+  left: 50vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

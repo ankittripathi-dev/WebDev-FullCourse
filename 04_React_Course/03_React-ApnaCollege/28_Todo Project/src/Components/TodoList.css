@@ -1,0 +1,27 @@
+button {
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: large;
+  border: none;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  border: 1px solid rgba(0, 0, 255, 0.514);
+}
+
+input {
+  padding: 6px;
+  border-radius: 6px;
+  font-size: large;
+  border: none;
+}
+
+ul {
+  text-align: start;
+  margin-left: 40px;
+}

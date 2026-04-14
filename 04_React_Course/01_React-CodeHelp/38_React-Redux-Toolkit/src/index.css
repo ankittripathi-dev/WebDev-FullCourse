@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  background-color: rgb(195, 210, 223);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: large;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+input {
+  padding: 6px ;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: large;
+}

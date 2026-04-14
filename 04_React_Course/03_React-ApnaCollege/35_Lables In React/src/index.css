@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 3px 10px;
+  font-size: large;
+  background-color: orangered;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 6px;
+}
+
+input {
+  padding: 3px 8px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: large;
+  margin: 6px;
+}

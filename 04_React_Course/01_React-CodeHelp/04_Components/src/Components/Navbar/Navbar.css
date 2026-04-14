@@ -1,0 +1,22 @@
+nav {
+  width: 100vw;
+  background-color: crimson;
+  display: flex;
+  padding: 10px;
+}
+
+#left-side {
+  display: flex;
+  gap: 15rem;
+  margin-inline: auto;
+}
+
+#right-side {
+  display: flex;
+  gap: 15rem;
+  margin-inline: auto;
+}
+
+li {
+  list-style-type: none;
+}

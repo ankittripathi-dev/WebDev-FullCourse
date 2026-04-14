@@ -1,0 +1,20 @@
+.cardOne {
+  background-color: crimson;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+.cardTwo {
+  background-color: orange;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 6px;
+}
+
+.cardThree {
+  background-color: green;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 6px;
+}

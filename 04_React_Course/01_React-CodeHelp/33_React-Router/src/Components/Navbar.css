@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  font-size: x-large;
+  background-color: aliceblue;
+}
+
+.active-link{
+  color: red;
+}

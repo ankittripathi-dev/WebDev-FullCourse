@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+}
+
+button {
+  padding: 6px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: large;
+}
+
+button:hover {
+  border-color: #646cff;
+}
