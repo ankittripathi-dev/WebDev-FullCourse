@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply w-full overflow-x-hidden;
+  }
+  body {
+    @apply bg-zd-canvas text-zd-ink font-sans antialiased;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #7D59FF, #6B44F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
