@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [username, setUsername] = useState("");
 
-  
   const submitHandler = (e) => {
     e.preventDefault();
     console.log("Submitted by:-", username);
@@ -16,7 +15,7 @@ const App = () => {
           onChange={(e) => {
             setUsername(e.target.value);
           }}
-          className="px-2 py-1 rounded text-xl m-5 text-black"
+          className="px-2 py-1 rounded text-xl m-1 text-black"
           type="text"
           placeholder="Enter Your Name"
         />
