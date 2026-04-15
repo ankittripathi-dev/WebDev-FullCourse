@@ -1,8 +1,15 @@
-# React + Vite
+## Form Hanlder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Controlled Components
 
-Currently, two official plugins are available:
+- A Controlled Component is an input element whose value is controlled by React state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### 🔄 Two-Way Binding (Concept)
+
+- In React, controlled components follow a two-way data flow:
+
+- UI → State → via onChange
+- State → UI → via value
+
+- You can say it's two-way binding conceptually
+- But in React interviews, say: “This is a controlled component.”
