@@ -8,11 +8,11 @@ const Card = (props) => {
   return (
     <div className="bg-white text-black text-center rounded-xl p-10">
       <h1 className="text-3xl">
-        Name:- {props.user} {props.surname}
+        Name: {props.user} {props.surname}
       </h1>
 
       <h3 className="text-xl">
-        City:- {props.address}, Age:- {props.age}
+        City: {props.address}, Age: {props.age}
       </h3>
 
       <button className="bg-orange-500 px-3 py-1 text-xl rounded mt-3">

@@ -1,8 +1,22 @@
-# React + Vite
+## Props in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Props = data passed from parent → child
 
-Currently, two official plugins are available:
+### Example 
+```
+ Parent Component
+const App = () => {
+  return <User name="Ankit" />;
+};
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Child Component
+const User = (props) => {
+  return <h1>Hello {props.name}</h1>;
+};
+
+
+⚡ Destructuring Props (Best Practice)
+const User = ({ name }) => {
+  return <h1>Hello {name}</h1>;
+};
+```
