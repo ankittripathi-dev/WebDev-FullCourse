@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./components/Card";
 
 const App = () => {
@@ -51,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="p-10 ml-10">
+      <div className="flex justify-center items-center min-h-screen gap-10">
         {users.map((elem, index) => {
           return (
             <Card
