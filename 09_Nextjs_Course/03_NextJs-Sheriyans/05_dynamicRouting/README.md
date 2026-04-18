@@ -1,4 +1,4 @@
 # Notes
-- To perform routing in next.js 
-(1) Just make folder Inside app folder (folder ka naam same rakhna jo route ka rakhna chate ho. url me jo type hoke aaega)
-(2) Then Make a page.js file in that folder
+- Dynamic Routing me [] bracket ke ander folder bana loo. Aur phir url me kuch vi likhenge access ho jaega
+
+- All Hooks are client components, So if you want to use any client components we have to mention 'use client' at the top. Because nextjs support both client side components and server side components. So if you want to render at clint side we have to mention 'use client' at the top of the code.
