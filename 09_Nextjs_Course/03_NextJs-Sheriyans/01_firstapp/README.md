@@ -1,3 +1,7 @@
+# Nextjs Project Cmd
+- npx create-next-app@latest 
+- npx create-next-app@latest projectname
+
 # Reactjs
 - No SEO
 - No Inbuild Routing
