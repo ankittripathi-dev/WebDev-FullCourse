@@ -8,7 +8,7 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <div className="flex gap-20 text-black">
-      <div className="container my-2 size-60 bg-lime-300 relative">
+      <div className="container my-2 size-100 bg-lime-300 relative">
         <Image
           fill={true}
           className="mx-auto object-fill" /* obejct fill */
@@ -18,7 +18,7 @@ const AboutPage = () => {
         <h1 className="text-center">About page</h1>
       </div>
 
-      <div className="container my-2 size-60 bg-lime-300 relative">
+      <div className="container my-2 size-100 bg-lime-300 relative">
         <Image
           fill={true}
           className="mx-auto object-contain" /* obejct contain */
@@ -28,7 +28,7 @@ const AboutPage = () => {
         <h1 className="text-center">About page</h1>
       </div>
 
-      <div className="container my-2 size-60 bg-lime-300 relative">
+      <div className="container my-2 size-100 bg-lime-300 relative">
         <Image
           fill={true}
           className="mx-auto object-cover" /* obejct cover */

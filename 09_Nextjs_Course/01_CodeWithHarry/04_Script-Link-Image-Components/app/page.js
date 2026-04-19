@@ -12,10 +12,10 @@ const HomePage = () => {
           alt="HomePage-Image"
         />
 
-        <h1 className="text-center text-xl text-black">Welcome, Home page</h1>
+        <h1 className="text-center text-2xl text-black">Welcome, Home page</h1>
       </div>
 
-      <div className="container my-2 size-90 bg-lime-300 mx-auto">
+      <div className="container my-2  size-90 bg-lime-300 mx-auto">
         <Image
           className="mx-auto"
           width={600}
